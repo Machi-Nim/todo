@@ -1,5 +1,5 @@
 
-proc todo*(info: static[string or cstring]) =
+template todo*(info: static[string or cstring]) =
   ## Adds a todo.
   ## You can simply type
   ## `todo "your todo"`
